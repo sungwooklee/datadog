@@ -21,11 +21,11 @@ spec:
           - {containerPort: 8125, name: dogstatsdport, protocol: UDP}
           - {containerPort: 8126, name: traceport, protocol: TCP}
         env:
-          - {name: DD_API_KEY, value: "42480f0e82683cea1bd0c3c1b2aaec15"}
+          - {name: DD_API_KEY, value: ""}
           - {name: KUBERNETES, value: "true"}
           - {name: DD_HEALTH_PORT, value: "5555"}
           - {name: DD_PROCESS_AGENT_ENABLED, value: "true"}
-          - {name: DD_CLUSTER_AGENT_AUTH_TOKEN, value: "PDMyX0NIQVJBQ1RFUl9MT05HX1NUUklORz4="}
+          - {name: DD_CLUSTER_AGENT_AUTH_TOKEN, value: ""}
           - {name: DD_SYSTEM_PROBE_ENABLED, value: "true"}
           - {name: DD_SYSTEM_PROBE_EXTERNAL, value: "true"}
           - {name: DD_SYSPROBE_SOCKET, value: "/var/run/s6/sysprobe.sock"}
