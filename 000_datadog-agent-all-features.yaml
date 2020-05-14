@@ -40,8 +40,8 @@ spec:
           env:
             - name: DD_TRACE_ANALYTICS_ENABLED
               value: 'true'            
-            - name: DD_KUBELET_TLS_VERIFY
-              value: 'false'            
+            #- name: DD_KUBELET_TLS_VERIFY
+            #  value: 'false'            
             ## The Datadog API Key related to your Organization set by secret
             - name: DD_API_KEY
               valueFrom:
